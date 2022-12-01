@@ -11,3 +11,14 @@ function conectarDB() : mysqli {
 
     return $db;
 }
+// function conectarDB() {
+//     $db = pg_connect($_ENV['DB_HOST'], $_ENV['DB_USER'], $_ENV['DB_PASSWORD'], $_ENV['DB_NAME']);
+
+
+//     if(!$db) {
+//         echo "Error no se pudo conectar";
+//         exit;
+//     }
+
+//     return $db;
+// }
