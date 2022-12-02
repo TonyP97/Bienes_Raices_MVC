@@ -29,7 +29,7 @@
                     <div class="derechisima">
                         <div class="derecha"> 
                             <nav class="navegacionn">
-                                <a href="/nosotros">Nosotros</a>
+                                <a href="paginas/nosotros">Nosotros</a>
                                 <a href="/propiedades">Anuncios</a>
                                 <a href="/blog">Blog</a>
                                 <a href="/contacto">Contacto</a> 
