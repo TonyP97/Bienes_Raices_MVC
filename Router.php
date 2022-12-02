@@ -55,11 +55,11 @@ class Router {
 
         ob_start();
         // include __DIR__ . "/views/$view.php";
-        include "views/$view.php";
+        include "/app/views/$view.php";
 
         $contenido = ob_get_clean();
 
-        include "views/layout.php";
+        include "/app/views/layout.php";
     }
         
 }
