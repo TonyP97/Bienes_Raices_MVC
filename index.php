@@ -35,13 +35,13 @@ $router->post('/entradas/eliminar', [EntradaController::class, 'eliminar']);
 
 // Zona Pública
 $router->get('/', [PaginasController::class, 'index']);
-$router->get('paginas/nosotros', [PaginasController::class, 'nosotros']);
-$router->get('paginas/propiedades', [PaginasController::class, 'propiedades']);
-$router->get('paginas/propiedad', [PaginasController::class, 'propiedad']);
-$router->get('paginas/blog', [PaginasController::class, 'blog']);
-$router->get('paginas/entrada', [PaginasController::class, 'entrada']);
-$router->get('paginas/contacto', [PaginasController::class, 'contacto']);
-$router->post('paginas/contacto', [PaginasController::class, 'contacto']);
+$router->get('/nosotros', [PaginasController::class, 'nosotros']);
+$router->get('/propiedades', [PaginasController::class, 'propiedades']);
+$router->get('/propiedad', [PaginasController::class, 'propiedad']);
+$router->get('/blog', [PaginasController::class, 'blog']);
+$router->get('/entrada', [PaginasController::class, 'entrada']);
+$router->get('/contacto', [PaginasController::class, 'contacto']);
+$router->post('/contacto', [PaginasController::class, 'contacto']);
 
 // Login y Auth
 $router->get('/login', [LoginController::class, 'login']);
