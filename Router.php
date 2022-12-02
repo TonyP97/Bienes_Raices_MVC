@@ -54,6 +54,7 @@ class Router {
         }
 
         ob_start();
+        // include __DIR__ . "/views/$view.php";
         include __DIR__ . "/views/$view.php";
 
         $contenido = ob_get_clean();
