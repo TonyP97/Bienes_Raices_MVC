@@ -1,7 +1,7 @@
 <?php
 
-require_once '/app' .  __DIR__ . '/../includes/app.php';
-// require_once __DIR__ . '/includes/app.php';
+// require_once __DIR__ . '/../includes/app.php';
+require_once __DIR__ . '/includes/app.php';
 // require_once(realpath(dirname(__FILE__) . '/../includes/app.php'));
 
 use MVC\Router;
