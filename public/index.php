@@ -1,7 +1,7 @@
 <?php
 
 // require_once __DIR__ . '/../includes/app.php';
-require_once __DIR__ . '/../includes/app.php';
+require_once(realpath(dirname(__FILE__) . '/../includes/app.php'));
 // require_once 'Bienes_Raices_MVC/includes/app.php';
 // require '../includes/app.php';
 
