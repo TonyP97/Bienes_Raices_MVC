@@ -17,6 +17,7 @@ class PropiedadController {
         $entradas = Entrada::all();
 
         $resultado = $_GET['resultado'] ?? null;
+        
 
         $router->render('propiedades/admin', [
             'propiedades' => $propiedades,
@@ -71,7 +72,7 @@ class PropiedadController {
         $router->render('propiedades/crear', [
             'propiedad' => $propiedad,
             'vendedores' => $vendedores,
-            'errores' => $errores
+            'errores' => $errores,
         ]);
     }
 
